@@ -11,8 +11,8 @@ Você será avaliado pela sua capacidade de escrever um código simples, de fác
 ### Instruções
 
 - **Nome do Projeto:** FB Quest
-- **Objetivo do Projeto:** Criar um Aplicativo de resoluções de questões avulsas do ENEM com dashboad web para revisão das questões (CRUD) e ambos os ambientes precisam de APIs que enviem e recebam essas informações.
-- **Tecnologias:** React/React Native e NodeJS.
+- **Objetivo do Projeto:** Criar um Aplicativo de resoluções de questões avulsas do ENEM integrado com uma API.
+- **Tecnologias:** React Native e NodeJS.
 - **User Interface:** Você pode [usar esse link](https://scene.zeplin.io/project/5f120b91fab6d3067d9ee699) como referência de UI durante o desenvolvimento.
 - **Entregáveis:** siga as instruções abaixo:
   - Título: [FullStack-Engineer] Seu nome
@@ -21,6 +21,11 @@ Você será avaliado pela sua capacidade de escrever um código simples, de fác
 
 ---
 ## **Desafio**
+
+>### **Backend**
+- API deve criar um simulado de questões avulsas a partir dos filtros do App;
+- API também é responsavel por receber as respostas e calcular o aproveitamento;
+
 >### **Aplicativo**
 - Tela incial do app antes de começar a responder as questões:
     - O usuário deve ser capaz de selecionar a quantidade de questões (min=1 | max=40);
@@ -32,13 +37,6 @@ Você será avaliado pela sua capacidade de escrever um código simples, de fác
 - Resultado das questões;
     - Mostrar uma % de aproveitamento geral de acertos de questões.
     - Tempo total gasto para responder as questões.
->### **Web**
-- Crie um dashboard de Questões que:
-    - O usuário deve ser capaz de visualizar as questões;
-    - Editar enunciado ou resolução da questão (Rich Text);
-    - O usuário deve ser capaz de marcar se a questão está disponivel ou não.
->### **Backend**
-- Crie uma API Rest para buscar e atualizar as questões.
 
 ---
 ### O que nós vamos avaliar
@@ -99,19 +97,19 @@ Formato:
 ## FAQ
 #### Posso utilizar frameworks/bibliotecas?
 Sim. 
->**Ex.:** Bootstrap, Material-UI, styled-componentes, Express e etc..
+>**Ex.:** Styled-componentes, Express, React Native Paper e etc..
 
 #### React, Flutter, Angular ou Vue?
 Você precisa implementar em React/React Native e NodeJS.
 
 #### Banco de dados?
-De preferência MongoDB
+MongoDB ou PostgreSQL
 
 #### Preciso colocar alguma aplicação em produção?
-Seria interessante pelo menos Dashboard Web e API. (Heroku, Firebase e etc ....)
+Seria interessante disponibilizar a API. (Ex: Heroku e etc ....)
 
 #### Quanto tempo eu tenho ?
-O tempo que você precisar, mas a maioria dos candidatos termina esse teste entre 5 a 7 dias. 
+O tempo que você precisar, mas a maioria dos candidatos termina esse teste entre 3 a 5 dias. 
 
 ## Boa Sorte!
 Sinta-se à vontade para fazer qualquer pergunta durante o desenvolvimento.
